@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Validación</h1>
+    <form>
+        <input type="text" required maxlength="2" minlength="2" pattern="">
+
+        <input type="number" min="2" max="10">
+
+        <input type="submit" name="" id="">
+    </form>
+    <hr>
+    <br>
+
+    <h1>Formularios</h1>
+    <form >
+        <fieldset>
+            <legend>Informacion personal</legend>
+
+            <div>
+                <label for="nombre" >Nombre: </label>
+
+            <input type="text" id="nombre"  placeholder="Nombre"> 
+            </div>
+
+            <div>
+                <label for="descripcion">Descripcion</label>
+
+                <textarea  id="descripcion"></textarea>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email"  id="email">
+            </div>
+
+            <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password"  id="contraseña">
+            </div>
+
+            <div>
+                <label for="radio">Radio:</label>
+               
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label for="hombre">Hombre</label>
+                
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="mujer">Mujer</label>
+            </div>
+
+            <div>
+                <label for="select">Select</label>
+                <select  id="select">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div>
+                Checkbox: 
+                <label for="mayor">
+                    
+                    <input type="checkbox" id="mayor">
+                    Mayor de edad
+                 
+                </label>
+                
+                <label for="check">
+                    <input type="checkbox" id="check">
+                    Menor de edad
+                </label>
+                
+            </div>
+
+            <div>
+                <label for="color">Color: </label>
+                <input type="color" id="color">
+            </div>
+
+            <div>
+                <label for="date">Date: </label>
+                <input type="date" id="date">
+            </div>
+
+            <div>
+                <label for="file">File: </label>
+                <input type="file" id="file">
+            </div>
+
+            <div>
+                <label for="image">Imagen: </label>
+                <input type="image" id="image" src="ruta de la imagen para poner en el boton">
+            </div>
+
+            <div>
+                <label for="oculto">Oculto: </label>
+                <input type="hidden" id="oculto">
+            </div>
+
+            <div>
+                <label for="number">Numero: </label>
+                <input type="number" id="number">
+            </div>
+
+            <div>
+                <label for="range">Rango: </label>
+                <input type="range" id="range">
+            </div>
+
+            <div>
+                <label for="search">Buscar: </label>
+                <input type="search" id="search" name="buscar">
+            </div>
+
+            <div>
+                <label for="telefono">Telefono: </label>
+                <input type="tel" id="telefono">
+            </div>
+
+            <div>
+                <label for="time">Hora: </label>
+                <input type="time" id="time">
+            </div>
+
+            <div>
+                <label for="month">Mes: </label>
+                <input type="month" id="month">
+            </div>
+
+            <div>
+                <label for="url">Web: </label>
+                <input type="url" id="url">
+            </div>
+
+            <div>
+                <label >Progreso: </label>
+                <progress min="1" max="100" value="45"/>
+            </div>
+
+            <div>
+                <label for="color">Metter: </label>
+                <meter max="100" value="45"/>
+            </div>
+
+            <div>
+                <label >Lista de Datos: </label>
+                <input list="frutas" name="fruta">
+                <datalist id="frutas">
+                    <option value="manazna">manazna</option>
+                    <option value="sandia">sandia</option>
+                    <option value="pera">pera</option>
+                    <option value="melon">melon</option>
+                </datalist>
+            </div>
+
+        </fieldset>
+
+        <input type="reset" value="Limpiar formulario">
+
+        <input type="submit" value="Enviar" >
+
+    </form>
+
+
+   
+</body>
+</html>
